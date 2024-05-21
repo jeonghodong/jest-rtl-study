@@ -1,5 +1,7 @@
+// tsconfig.json
 {
   "compilerOptions": {
+    "types": ["jest", "@testing-library/jest-dom"], // Add this line
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
